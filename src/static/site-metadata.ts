@@ -17,7 +17,7 @@ const getBasePath = () => {
 const data: ISiteMetadataResult = {
   siteTitle: 'Running Page',
   siteUrl: 'https://run.wbolyn.com',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  logo: '/images/logo.jpg',
   description: '王博霖的个人运动记录',
   navLinks: [
     {
