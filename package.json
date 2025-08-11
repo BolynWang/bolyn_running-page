@@ -56,7 +56,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.32.0",
-    "@tailwindcss/vite": "^4.1.10",
+    "@tailwindcss/vite": "^4.1.11",
     "@types/geojson": "^7946.0.14",
     "@types/mapbox__polyline": "^1.0.2",
     "@types/node": "^20.5.7",
