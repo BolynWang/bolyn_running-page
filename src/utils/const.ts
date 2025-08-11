@@ -55,7 +55,10 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据`;
+  const baseMessage = `记录自己跑步 ${yearLength} 年了，这是一段充满汗水与坚持的旅程;`;
+  const dataMessage = `下面列表展示的是${yearStr}的数据，每一次奔跑都是对自己的超越`;
+  const motivationMessage = `不论风雨，不论晨昏，脚步不停，梦想不止。让我们一起见证这些美好的跑步时光！`;
+  return `${baseMessage}\n${dataMessage}\n${motivationMessage}`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
