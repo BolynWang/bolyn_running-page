@@ -29,6 +29,10 @@ jobs:
 
       - name: Run GPX sync test
         run: |
+          # Create necessary directories and files for testing
+          mkdir -p GPX_OUT
+          mkdir -p src/static
+          touch run_page/data.db
           # make sure the gpx_sync.py script is executable
           python run_page/gpx_sync.py
 
