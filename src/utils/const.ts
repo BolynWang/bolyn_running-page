@@ -33,7 +33,7 @@ const GOOGLE_ANALYTICS_TRACKING_ID = 'GTM-N2GXMJ5B';
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.4;
+const LINE_OPACITY = 0.7;
 // styling: map height - responsive design
 // Use smaller height on mobile devices for better user experience
 const MAP_HEIGHT = window.innerWidth <= 768 ? 250 : 600;
@@ -44,7 +44,7 @@ const ROAD_LABEL_DISPLAY = true;
 const PRIVACY_MODE = false;
 // updated on 2024/11/17: lights are turned off by default
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
-const LIGHTS_ON = false;
+const LIGHTS_ON = true;
 //set to `true` if you want to show the 'Elevation Gain' column
 const SHOW_ELEVATION_GAIN = false;
 // set to `true` if you want to always show year chart without mouse hover detection
@@ -54,7 +54,7 @@ const RICH_TITLE = false;
 
 // IF you are outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
-const USE_ANIMATION_FOR_GRID = false;
+const USE_ANIMATION_FOR_GRID = true;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
   const baseMessage = `记录自己跑步 ${yearLength} 年了，这是一段充满汗水与坚持的旅程;`;
