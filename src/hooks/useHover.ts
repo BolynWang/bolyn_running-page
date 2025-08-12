@@ -18,7 +18,7 @@ const useHover = (): HoverHook => {
     onMouseOver() {
       // 如果ALWAYS_SHOW_YEAR_CHART为true，不需要处理鼠标事件
       if (ALWAYS_SHOW_YEAR_CHART) return;
-      
+
       // Clear the previous timer if it exists to handle rapid mouse movements
       clearTimeout(timerRef.current);
       timerRef.current = window.setTimeout(() => setHovered(true), 500);
@@ -26,7 +26,7 @@ const useHover = (): HoverHook => {
     onMouseOut() {
       // 如果ALWAYS_SHOW_YEAR_CHART为true，不需要处理鼠标事件
       if (ALWAYS_SHOW_YEAR_CHART) return;
-      
+
       clearTimeout(timerRef.current);
       setHovered(false);
     },
