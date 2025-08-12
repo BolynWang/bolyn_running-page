@@ -47,9 +47,7 @@ const PRIVACY_MODE = false;
 const LIGHTS_ON = false;
 //set to `true` if you want to show the 'Elevation Gain' column
 const SHOW_ELEVATION_GAIN = false;
-// set to `true` if you want to always show year chart without mouse hover detection
-const ALWAYS_SHOW_YEAR_CHART = true;
-// richer title for the activity types (like garmin style)1
+// richer title for the activity types (like garmin style)
 const RICH_TITLE = false;
 
 // IF you are outside China please make sure IS_CHINESE = false
@@ -160,7 +158,6 @@ export {
   PRIVACY_MODE,
   LIGHTS_ON,
   SHOW_ELEVATION_GAIN,
-  ALWAYS_SHOW_YEAR_CHART,
   RICH_TITLE,
   ACTIVITY_TYPES,
   ACTIVITY_TOTAL,
