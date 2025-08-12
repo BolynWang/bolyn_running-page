@@ -10,7 +10,7 @@ const useHover = (): HoverHook => {
     onMouseOver() {
       // Clear the previous timer if it exists to handle rapid mouse movements
       clearTimeout(timerRef.current);
-      timerRef.current = window.setTimeout(() => setHovered(true), 1000);
+      timerRef.current = window.setTimeout(() => setHovered(true), 500);
     },
     onMouseOut() {
       clearTimeout(timerRef.current);
