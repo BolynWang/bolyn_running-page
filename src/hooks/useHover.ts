@@ -8,7 +8,7 @@ const useHover = (): HoverHook => {
 
   const eventHandlers = {
     onMouseOver() {
-      // Clear the previous timer if it exists to handle rapid mouse movements
+      // Clear the previous timer if it exists to handle rapid mouse movements ceshi
       clearTimeout(timerRef.current);
       timerRef.current = window.setTimeout(() => setHovered(true), 1000);
     },
